@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unity11"
+
+    tools:context="com.example.anoop.personelassistant.MainActivity">
+
+
+    <TextView
+        android:text="Tap on mic to speak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textColor="@color/white"
+        android:textSize="21dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="6dp"
+        android:layout_above="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/ico_mic"
+        android:id="@+id/imageView2"
+        android:onClick="Speech"
+        android:layout_marginBottom="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/ceee"
+        android:id="@+id/jarvis"
+        android:layout_marginBottom="17dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView3" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/heartout"
+        android:id="@+id/heartout"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="23dp" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/heartin"
+        android:id="@+id/heartin"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="23dp" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/heartinin"
+        android:id="@+id/heartinin"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="23dp" />
+
+    <TextView
+        android:text="Personnel Assistant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_above="@+id/jarvis"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
